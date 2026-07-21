@@ -6,7 +6,7 @@ Implementation of Queue concepts and problems in C++.
 
 - [x] Linear Queue using Array
 - [x] Reverse Queue using Stack
-- [ ] Reverse Queue using Recursion
+- [x] Reverse Queue using Recursion
 - [ ] Circular Queue
 - [ ] Queue using Linked List
 - [ ] Queue using Two Stacks
@@ -39,6 +39,7 @@ Implementation of Queue concepts and problems in C++.
 ## Problems
 
 - Reverse Queue using Stack
+- Reverse Queue using Recursion
 
 ## Note
 
