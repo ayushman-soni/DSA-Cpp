@@ -1,8 +1,20 @@
-# Linear Queue using Array
+# Queue
 
-Implementation of a Linear Queue using a dynamic array in C++.
+Implementation of Queue concepts and problems in C++.
 
-## Operations
+## Topics Covered
+
+- [x] Linear Queue using Array
+- [x] Reverse Queue using Stack
+- [ ] Reverse Queue using Recursion
+- [ ] Circular Queue
+- [ ] Queue using Linked List
+- [ ] Queue using Two Stacks
+- [ ] Stack using Two Queues
+- [ ] Deque
+- [ ] Priority Queue
+
+## Operations (Linear Queue)
 
 - Push (Enqueue)
 - Pop (Dequeue)
@@ -12,7 +24,7 @@ Implementation of a Linear Queue using a dynamic array in C++.
 - Size
 - Display
 
-## Time Complexity
+## Time Complexity (Linear Queue)
 
 | Operation | Complexity |
 | --------- | ---------- |
@@ -24,6 +36,11 @@ Implementation of a Linear Queue using a dynamic array in C++.
 | Size      | O(1)       |
 | Display   | O(n)       |
 
+## Problems
+
+- Reverse Queue using Stack
+
 ## Note
 
-This is a Linear Queue implementation. The unused space created after dequeue operations cannot be reused. This limitation is solved by a Circular Queue.
+- Linear Queue cannot reuse the free space created after dequeue operations.
+- Circular Queue solves this limitation by reusing empty positions.
